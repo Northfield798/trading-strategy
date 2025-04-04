@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-04-04T20:09:45.882801",
+  "data": {
+    "baseSymbol": "PYTH",
+    "createdAt": "2025-01-21T06:34:54.691858",
+    "filters": {
+      "price": {
+        "borrowEntryFeeMaxMultiplier": null,
+        "borrowEntryFeeMinMultiplier": null,
+        "maxImpactMultiplier": null,
+        "maxMultiplier": null,
+        "maxPrice": null,
+        "meanMarkPriceBand": null,
+        "meanPremiumBand": null,
+        "minImpactMultiplier": null,
+        "minMultiplier": null,
+        "minPrice": "0.001",
+        "tickSize": "0.0001"
+      },
+      "quantity": {
+        "maxQuantity": null,
+        "minQuantity": "0.1",
+        "stepSize": "0.1"
+      }
+    },
+    "fundingInterval": 28800000,
+    "imfFunction": null,
+    "marketType": "SPOT",
+    "mmfFunction": null,
+    "openInterestLimit": "0",
+    "orderBookState": "Open",
+    "quoteSymbol": "USDC",
+    "symbol": "PYTH_USDC"
+  }
+}

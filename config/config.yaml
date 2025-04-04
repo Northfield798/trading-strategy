@@ -1,0 +1,27 @@
+# API配置
+api:
+  base_url: "https://api.hyperliquid.xyz"
+  timeout: 30
+  retry_times: 3
+
+# 数据配置
+data:
+  refresh_interval: 60  # 数据刷新间隔（秒）
+  default_days: 7      # 默认查询天数
+  default_limit: 100   # 默认显示数量
+
+# 服务器配置
+server:
+  host: "127.0.0.1"  # 修改为本地回环地址
+  port: 8000
+  debug: true
+
+# 分析配置
+analysis:
+  min_trades: 10      # 最小交易次数要求
+  timeframes:         # 可选的时间范围
+    - 1
+    - 7
+    - 30
+    - 90
+    - 365 

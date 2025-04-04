@@ -1,0 +1,14 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+pandas==2.1.4
+requests==2.31.0
+python-dotenv==1.0.0
+pyyaml==6.0.1
+plotly==5.18.0
+numpy==1.26.2
+python-dateutil==2.8.2
+aiohttp==3.9.1
+websockets==12.0
+web3==6.11.1
+hyperliquid-python-sdk==0.11.0
+pytz==2023.3 
